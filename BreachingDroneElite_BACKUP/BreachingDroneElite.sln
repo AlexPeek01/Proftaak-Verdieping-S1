@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreachingDroneElite", "BreachingDroneElite\BreachingDroneElite.csproj", "{FCA02348-72D7-4FD6-8701-FAD9070E7880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceDetection2", "..\..\..\..\..\..\..\source\repos\FaceDetection2\FaceDetection2\FaceDetection2.csproj", "{C4CDED93-2DE3-4695-BFA8-EB5985E2DED2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCA02348-72D7-4FD6-8701-FAD9070E7880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA02348-72D7-4FD6-8701-FAD9070E7880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA02348-72D7-4FD6-8701-FAD9070E7880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA02348-72D7-4FD6-8701-FAD9070E7880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CDED93-2DE3-4695-BFA8-EB5985E2DED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CDED93-2DE3-4695-BFA8-EB5985E2DED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CDED93-2DE3-4695-BFA8-EB5985E2DED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CDED93-2DE3-4695-BFA8-EB5985E2DED2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8ECFC565-8FDB-499A-8255-3F40E5D6EDAD}
+	EndGlobalSection
+EndGlobal
