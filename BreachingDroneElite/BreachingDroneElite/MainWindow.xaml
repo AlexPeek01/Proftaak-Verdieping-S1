@@ -11,13 +11,19 @@
         Title="Breaching Drone Elite 1.0" Height="650" Width="500">
     <Grid x:Name="BreachingDroneElite">
         <Grid.Background>
-            <ImageBrush/>
+            <ImageBrush ImageSource="https://i.gyazo.com/a5d0f9a2420474e065434995d9db7b7e.png" Stretch="UniformToFill" Opacity="0.99"/>
         </Grid.Background>
         <Button Content="Capture photo (C)" HorizontalAlignment="Left" Margin="350,127,0,0" VerticalAlignment="Top" Height="50" Width="100"/>
         <Button Content="Map Room (M)" HorizontalAlignment="Left" Margin="350,245,0,0" VerticalAlignment="Top" Height="50" Width="100"/>
         <Button Content="B D E" HorizontalAlignment="Left" Margin="350,25,0,0" VerticalAlignment="Top" Height="50" Width="100" Click="Button_Click"/>
 
         <WindowsFormsHost Margin="10,10,161.6,337" ChildChanged="WindowsFormsHost_ChildChanged">
+            <WindowsFormsHost.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF6F0000" Offset="0"/>
+                    <GradientStop Color="#FF520000" Offset="1"/>
+                </LinearGradientBrush>
+            </WindowsFormsHost.Background>
 
             <wf:PictureBox x:Name="PicBox"/>
 
@@ -42,6 +48,7 @@
                 </TransformGroup>
             </Separator.RenderTransform>
         </Separator>
+        <Label Content="VIDEOFEED" HorizontalAlignment="Left" Margin="72,119,0,0" VerticalAlignment="Top" Width="191" Background="#FFBABABA" FontSize="36"/>
 
 
 

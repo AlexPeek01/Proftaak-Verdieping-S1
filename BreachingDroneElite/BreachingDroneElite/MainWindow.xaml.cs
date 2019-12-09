@@ -64,7 +64,6 @@ namespace BreachingDroneElite
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

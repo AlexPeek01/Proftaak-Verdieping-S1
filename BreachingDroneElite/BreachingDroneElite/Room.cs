@@ -8,8 +8,8 @@ namespace BreachingDroneElite
 {
     class Room
     {
-        string RoomName;
-        int PersonCount;
+        string RoomName = "Kamer 1";
+        int PersonCount = 5;
         enum DangerLevel {Blue, Green, Yellow, Orange, Red};
     }
 }
