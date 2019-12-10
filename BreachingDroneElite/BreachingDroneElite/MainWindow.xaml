@@ -14,7 +14,6 @@
             <ImageBrush ImageSource="https://i.gyazo.com/a5d0f9a2420474e065434995d9db7b7e.png" Stretch="UniformToFill" Opacity="0.99"/>
         </Grid.Background>
         <Button Content="Capture photo (C)" HorizontalAlignment="Left" Margin="350,127,0,0" VerticalAlignment="Top" Height="50" Width="100"/>
-        <Button Content="Map Room (M)" HorizontalAlignment="Left" Margin="350,245,0,0" VerticalAlignment="Top" Height="50" Width="100"/>
         <Button Content="B D E" HorizontalAlignment="Left" Margin="350,25,0,0" VerticalAlignment="Top" Height="50" Width="100" Click="Button_Click"/>
 
         <WindowsFormsHost Margin="10,10,161.6,337" ChildChanged="WindowsFormsHost_ChildChanged">
